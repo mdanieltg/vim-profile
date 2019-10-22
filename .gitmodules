@@ -1,0 +1,18 @@
+[submodule "plug-ins/emmet-vim"]
+	path = plug-ins/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
+[submodule "plug-ins/nerdtree"]
+	path = plug-ins/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "plug-ins/lightline.vim"]
+	path = plug-ins/lightline.vim
+	url = https://github.com/itchyny/lightline.vim.git
+[submodule "plug-ins/fzf.vim"]
+	path = plug-ins/fzf.vim
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "plug-ins/vim-multiple-cursors"]
+	path = plug-ins/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
+[submodule "plug-ins/vim-surround"]
+	path = plug-ins/vim-surround
+	url = https://github.com/tpope/vim-surround.git
