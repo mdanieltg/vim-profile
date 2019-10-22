@@ -41,7 +41,6 @@ set noexpandtab
 call plug#begin('~/.vim/plug-ins')
 
 Plug 'scrooloose/nerdtree'
-Plug 'ryanoasis/vim-devicons'
 Plug 'mattn/emmet-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf.vim'
