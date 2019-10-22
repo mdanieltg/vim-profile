@@ -38,4 +38,16 @@ set tabstop=4
 set shiftwidth=4
 set noexpandtab
 
+call plug#begin('~/.vim/plug-ins')
+
+Plug 'scrooloose/nerdtree'
+Plug 'ryanoasis/vim-devicons'
+Plug 'mattn/emmet-vim'
+Plug 'itchyny/lightline.vim'
+Plug 'junegunn/fzf.vim'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'tpope/vim-surround'
+
+call plug#end()
+
 " vim: ts=2 et
