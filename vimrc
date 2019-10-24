@@ -39,12 +39,14 @@ set shiftwidth=4
 set noexpandtab
 
 nnoremap ¿ :NERDTreeToggle<CR>
+nnoremap ñ :Files<CR>
 
 call plug#begin('~/.vim/plug-ins')
 
 Plug 'scrooloose/nerdtree'
 Plug 'mattn/emmet-vim'
 Plug 'itchyny/lightline.vim'
+Plug '/usr/bin/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-surround'
