@@ -38,6 +38,8 @@ set tabstop=4
 set shiftwidth=4
 set noexpandtab
 
+nnoremap ¿ :NERDTreeToggle<CR>
+
 call plug#begin('~/.vim/plug-ins')
 
 Plug 'scrooloose/nerdtree'
