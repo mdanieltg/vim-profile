@@ -52,5 +52,3 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-surround'
 
 call plug#end()
-
-" vim: ts=2 et
