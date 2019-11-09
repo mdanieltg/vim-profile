@@ -46,7 +46,7 @@ call plug#begin('~/.vim/plug-ins')
 Plug 'scrooloose/nerdtree'
 Plug 'mattn/emmet-vim'
 Plug 'itchyny/lightline.vim'
-Plug '/usr/bin/fzf'
+Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-surround'
