@@ -38,11 +38,8 @@ set tabstop=4
 set shiftwidth=4
 set noexpandtab
 
-nnoremap ¿ :NERDTreeToggle<CR>
-nnoremap ñ :Files<CR>
-
+" Plugins (vim-plug)
 call plug#begin('~/.vim/plug-ins')
-
 Plug 'scrooloose/nerdtree'
 Plug 'mattn/emmet-vim'
 Plug 'itchyny/lightline.vim'
@@ -50,5 +47,8 @@ Plug 'junegunn/fzf', { 'do': './install --bin' }
 Plug 'junegunn/fzf.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'tpope/vim-surround'
-
 call plug#end()
+
+" Mapeo de funciones de plugins
+nnoremap ¿ :NERDTreeToggle<CR>
+nnoremap ñ :Files<CR>
