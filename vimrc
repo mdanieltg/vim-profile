@@ -1,6 +1,6 @@
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
-  finish
+	finish
 endif
 
 set nocompatible
@@ -24,18 +24,18 @@ inoremap <C-U> <C-G>u<C-U>
 
 " Disable Mouse
 if has('mouse')
-  set mouse=r
+	set mouse=r
 endif
 
 if &t_Co > 2
-  syntax on
-  set hlsearch
+	syntax on
+	set hlsearch
 endif
 
 set autoindent
 
-set tabstop=4
-set shiftwidth=4
+set tabstop=8
+set shiftwidth=8
 set noexpandtab
 
 " Plugins (vim-plug)
